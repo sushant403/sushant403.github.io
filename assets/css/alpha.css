@@ -99,7 +99,10 @@ section {
   content: "";
   animation: dotsBounce 1.5s infinite ease-in-out;
   border-radius: 100%;
-  background-color: #f12639;
+  background: #80d0c7;
+  background: -webkit-linear-gradient(150deg, #13547a, #80d0c7);
+  background: -moz-linear-gradient(150deg, #13547a, #80d0c7);
+  background: linear-gradient(150deg, #13547a, #80d0c7);
 }
 .spinner .circles::after {
   top: auto;
